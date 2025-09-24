@@ -11,7 +11,7 @@ int main() {
         printf("Direita\n");
     }
 
-    printf("\n");
+    printf("\n"); 
 
     // ================================
     // Movimento do BISPO
@@ -25,7 +25,7 @@ int main() {
     }
 
     printf("\n"); 
-
+    
     // ================================
     // Movimento da RAINHA
     // ================================
@@ -37,5 +37,29 @@ int main() {
         rainha++;
     } while (rainha <= 8);
 
-    return 0;
+       printf("\n");
+
+    // ================================
+    // Movimento do CAVALO
+    // ================================
+    printf("Movimento do Cavalo (2 casas para Baixo e 1 para Esquerda):\n");
+
+    int Baixo = 2, Esquerda = 1;
+
+    {
+        for(int cavalo = 1; cavalo <= Baixo; cavalo++){
+        printf("Baixo \n"); 
+    
+        if ( cavalo == Baixo) {
+            
+            int cavalo = 1;
+            while (cavalo <= Esquerda)
+        {
+               printf("Esquerda\n");
+            cavalo++;
+        }
+    }  
+        }
+    }
+         return 0;
 }
